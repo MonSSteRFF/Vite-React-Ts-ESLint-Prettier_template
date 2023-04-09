@@ -1,0 +1,23 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "order/order": [
+      "custom-properties",
+      "declarations"
+    ],
+    "order/properties-order": [
+      "width",
+      "height"
+    ],
+    "scss/at-extend-no-missing-placeholder": null,
+    "selector-class-pattern": null,
+    "custom-property-pattern": null,
+    "no-descending-specificity": null,
+    "scss/percent-placeholder-pattern": null,
+    "keyframes-name-pattern": null,
+    "property-no-unknown": null
+  }
+}
