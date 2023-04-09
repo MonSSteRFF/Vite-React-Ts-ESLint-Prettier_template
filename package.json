@@ -13,7 +13,6 @@
     "react-router-dom": "^6.10.0",
     "zustand": "^4.3.7"
   },
-  "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
@@ -30,9 +29,8 @@
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "prettier": "^2.8.7",
     "sass": "^1.61.0",
-    "stylelint": "^15.4.0",
-    "stylelint-order": "^6.0.3",
     "typescript": "^5.0.4",
     "vite": "^4.2.1"
-  }
+  },
+  "license": "ISC"
 }
