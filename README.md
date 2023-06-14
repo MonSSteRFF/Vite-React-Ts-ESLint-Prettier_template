@@ -3,7 +3,7 @@
 clear dependencies and devDependencies arrays in *[package.json](package.json)* and run this commands
 
 ### list of dependencies
-`npm install axios react react-dom react-router-dom zustand`
+`npm install react react-dom react-router-dom zustand`
 
 ### list of dev dependencies
 `npm install prettier sass -D`
