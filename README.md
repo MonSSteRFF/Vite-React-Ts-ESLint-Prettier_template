@@ -1,27 +1,36 @@
-## if you want update all dependencies of project u can use this preset
+# update dependencies
 
-clear dependencies and devDependencies arrays in *[package.json](package.json)* and run this commands
+`npm run update`
 
-### list of dependencies
-`npm install react react-dom react-router-dom zustand`
+# list of dependencies
+- [react](https://github.com/facebook/react)
+- [react-dom & react-router-dom](https://reactrouter.com/en/main)
+- [zustand](https://github.com/pmndrs/zustand)
 
-### list of dev dependencies
-`npm install prettier sass -D`
-- [.prettierrc.js](.prettierrc.js)
-- [.prettierignore](.prettierignore)
+# list of dev dependencies
+
+- [prettier](https://github.com/prettier/prettier)
+- [sass](https://github.com/sass/sass)
 
 ### typescript
-`npm install @types/react @types/react-dom @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript -D`
-- [tsconfig.json](tsconfig.json)
-- [tsconfig.node.json](tsconfig.node.json)
+- [@types/react](https://github.com/facebook/react)
+- [@types/react-dom](https://reactrouter.com/en/main)
+- [@typescript-eslint/eslint-plugin & @typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint)
+- [typescript](https://github.com/microsoft/TypeScript)
 
 ### vite
-`npm install @vitejs/plugin-react vite -D`
-- [vite.config.ts](vite.config.ts)
+- [vite](https://github.com/vitejs/vitehttps://github.com/vitejs/vite)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react)
 
 ### eslint
-`npm install eslint-plugin-react-hooks eslint eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-simple-import-sort -D`
-- [.eslintrc.js](.eslintrc.js)
-- [.eslintignore](.eslintignore)
+- [eslint](https://github.com/eslint/eslint)
+  - eslint-plugin-react-hooks 
+  - eslint-config-prettier 
+  - eslint-plugin-import 
+  - eslint-plugin-jsx-a11y 
+  - eslint-plugin-prettier 
+  - eslint-plugin-react 
+  - eslint-plugin-simple-import-sort
+
 
 ## config files must be broken after you update dependencies
