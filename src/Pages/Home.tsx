@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Counter = () => {
+const Home = () => {
   const [counter, setCounter] = useState<number>(0);
 
   const changeCounterHandler = (n: number) => {
@@ -16,4 +16,4 @@ const Counter = () => {
   );
 };
 
-export default Counter;
+export default Home;

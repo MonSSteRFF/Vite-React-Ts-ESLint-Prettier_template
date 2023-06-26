@@ -1,27 +1,23 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import Counter from './Pages/Counter';
+import useRoutes from './hooks/useRoutes';
 
 function App() {
-  const routes = [
-    {
-      path: '/',
-      element: Counter,
-    },
-  ];
+  const { allInfoRoutes } = useRoutes();
 
   return (
     <>
       <header></header>
       <main>
         <Routes>
-          {routes.map((route, index) => (
+          {allInfoRoutes.map((page, pageIndex) => (
             <Route
-              key={index}
-              element={<route.element />}
-              path={route.path}
-              index={route.path === '/'}
+              id={page.name}
+              key={pageIndex}
+              element={page.element}
+              path={page.path}
+              index={page.path === '/'}
             />
           ))}
         </Routes>
