@@ -1,30 +1,22 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-import useRoutes from './hooks/useRoutes';
+import Home from '@/pages/Home';
 
-function App() {
-  const { allInfoRoutes } = useRoutes();
+import styles from './App.module.scss';
 
+const App = () => {
   return (
     <>
       <header></header>
-      <main>
+      <main className={styles.main}>
         <Routes>
-          {allInfoRoutes.map((page, pageIndex) => (
-            <Route
-              id={page.name}
-              key={pageIndex}
-              element={page.element}
-              path={page.path}
-              index={page.path === '/'}
-            />
-          ))}
+          <Route path={'/'} element={<Home />} />
         </Routes>
       </main>
       <footer></footer>
     </>
   );
-}
+};
 
 export default App;

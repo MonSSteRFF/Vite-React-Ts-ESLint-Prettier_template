@@ -1,11 +1,8 @@
-# update dependencies
-
-`npm run update`
-
 # list of dependencies
 - [react](https://github.com/facebook/react)
 - [react-dom & react-router-dom](https://reactrouter.com/en/main)
-- [zustand](https://github.com/pmndrs/zustand)
+- [mobx](https://github.com/mobxjs/mobx)
+- [mobx-react](https://github.com/mobxjs/mobx-react)
 
 # list of dev dependencies
 
@@ -31,6 +28,3 @@
   - eslint-plugin-prettier 
   - eslint-plugin-react 
   - eslint-plugin-simple-import-sort
-
-
-## config files must be broken after you update dependencies
