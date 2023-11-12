@@ -17,7 +17,10 @@
     "jsx": "react-jsx",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "types": [
+      "vite-plugin-pwa/react"
+    ]
   },
   "include": ["src", "vite.config.ts"],
 }

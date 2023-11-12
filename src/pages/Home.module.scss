@@ -1,11 +1,12 @@
 @use '@/styles/typography' as *;
 @use '@/styles/uiKit' as *;
 
-.counter{
+.counter {
   @extend %ss_600_18_22;
   margin-bottom: 10px;
 }
-.button{
+
+.button {
   @extend %ss_400_14_16;
   @extend %u_button;
   margin-right: 16px;

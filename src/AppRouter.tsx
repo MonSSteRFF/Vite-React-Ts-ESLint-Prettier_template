@@ -3,9 +3,9 @@ import { Route, Routes } from 'react-router-dom';
 
 import Home from '@/pages/Home';
 
-import styles from './App.module.scss';
+import styles from './AppRouter.module.scss';
 
-const App = () => {
+const AppRouter = () => {
   return (
     <>
       <header></header>
@@ -19,4 +19,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default AppRouter;

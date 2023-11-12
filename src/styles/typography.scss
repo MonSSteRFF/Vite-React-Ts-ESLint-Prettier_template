@@ -4,15 +4,21 @@
   line-height: $lh;
 }
 
-%ss_200{
-  &_12_14{@include ss_font(200, 12px,14px)}
+%ss_200 {
+  &_12_14 {
+    @include ss_font(200, 12px, 14px)
+  }
 }
 
-%ss_400{
-  &_14_16{@include ss_font(400, 14px,16px)}
+%ss_400 {
+  &_14_16 {
+    @include ss_font(400, 14px, 16px)
+  }
 }
 
-%ss_600{
-  &_18_22{@include ss_font(600, 18px,22px)}
+%ss_600 {
+  &_18_22 {
+    @include ss_font(600, 18px, 22px)
+  }
 }
 
