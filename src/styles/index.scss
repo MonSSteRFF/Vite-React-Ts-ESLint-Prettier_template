@@ -1,15 +1,12 @@
-*, ::before, ::after {
+:root {
+  --background: #000;
+}
+
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  outline: none;
-  border: none;
-  background: none;
-}
-
-
-
-:root {
-  --black: #000;
+  list-style: none;
 }

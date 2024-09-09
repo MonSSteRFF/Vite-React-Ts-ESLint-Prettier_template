@@ -1,14 +1,7 @@
-import React from 'react';
+import "./styles/index.scss";
 
-import AppRouter from '@/AppRouter';
+import { createRoot } from "react-dom/client";
 
-const Main = () => {
+import App from "./App.tsx";
 
-  return (
-    <>
-      <AppRouter />
-    </>
-  );
-};
-
-export default Main;
+createRoot(document.getElementById("root")!).render(<App />);
